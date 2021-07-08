@@ -1,3 +1,4 @@
+// FIZZBUZZ 
 
 for (i=1;i<=100;i++){
   if ((i%3==0)&&(i%5==0)){
@@ -13,3 +14,18 @@ for (i=1;i<=100;i++){
     console.log(i)
   }
 }
+
+//PALINDROME
+
+s = "madam"
+s1 = ""
+for ( t of s ){
+  s1 = t + s1}
+console.log(s1)
+  if (s1 == s){
+   console.log("Palindrome")    
+ }
+ else{
+   console.log("Not a palindrome")
+ }
+
